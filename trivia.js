@@ -19,6 +19,10 @@ const firstQuestion = "What is the freezing point of water?";
 const firstQuestionAnswers = ['0 C', '100 C', '32 C', '212 C'];
 const correctAnswer = firstQuestionAnswers[0];
 
+const secondQuestion = "When did the founding fathers sign the Declaration of Independence?";
+const secondQuestionAnswers = ['1776', '1787', '1791', '1801'];
+const secondCorrectAnswer = secondQuestionAnswers[0];
+
 function askQuestion(question, answers, correctAnswer) {
   console.log("your first question is...");
   console.log(question);
